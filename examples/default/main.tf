@@ -3,7 +3,7 @@ module "digitalocean_droplet" {
   name = "my-droplet"
 }
 
- output "id" {
+output "id" {
    value = module.digitalocean_droplet.id
  }
  
